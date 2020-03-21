@@ -7173,7 +7173,7 @@ COPY public.main_host_inventory_sources (id, host_id, inventorysource_id) FROM s
 --
 
 COPY public.main_instance (id, uuid, hostname, created, modified, capacity, version, last_isolated_check, capacity_adjustment, cpu, memory, cpu_capacity, mem_capacity, enabled, managed_by_policy) FROM stdin;
-1	00000000-0000-0000-0000-000000000000	awx	2020-03-21 21:11:03.740249+00	2020-03-21 21:54:24.540984+00	79	9.2.0	\N	1.00	4	10478071808	16	79	t	t
+1	00000000-0000-0000-0000-000000000000	awx	2020-03-21 21:11:03.740249+00	2020-03-21 21:55:24.814794+00	79	9.2.0	\N	1.00	4	10478071808	16	79	t	t
 \.
 
 
@@ -7725,7 +7725,7 @@ COPY public.main_toweranalyticsstate (id, last_run) FROM stdin;
 --
 
 COPY public.main_towerschedulestate (id, schedule_last_run) FROM stdin;
-1	2020-03-21 21:54:24.573896+00
+1	2020-03-21 21:55:24.853453+00
 \.
 
 
